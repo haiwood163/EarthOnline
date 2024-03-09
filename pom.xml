@@ -12,36 +12,6 @@
     <description>ioGame网络游戏服务器框架 - 示例</description>
 
     <modules>
-        <!-- 示例 -->
-        <module>example/example-parent</module>
-        <module>example/example-run-one</module>
-        <module>example/example-for-spring</module>
-        <module>example/example-interaction</module>
-        <module>example/example-interaction-same</module>
-        <module>example/example-endpoint</module>
-        <module>example/example-for-tcp-socket</module>
-
-        <!--        <module>example/example-redisson-lock-spring-boot-starter</module>-->
-        <!--        <module>example/example-redisson-lock</module>-->
-
-        <module>example/example-cluster-run-one</module>
-        <module>example/example-broadcast</module>
-        <module>example/example-hook</module>
-        <module>example/example-wrapper-base-type</module>
-
-        <!-- 实践案例 - 通用部分  -->
-        <module>example-game-collect/game-common-proto</module>
-        <module>example-game-collect/game-common</module>
-        <!-- 对外服 -->
-        <module>example-game-collect/game-external</module>
-        <!-- 逻辑服 - 大厅 -->
-        <module>example-game-collect/game-logic-hall</module>
-        <!-- 逻辑服 - 坦克 -->
-        <module>example-game-collect/game-logic-tank</module>
-        <!-- 启动 对外服、网关、逻辑服 -->
-        <module>example-game-collect/game-one</module>
-        <!-- java 坦克游戏 fxgl -->
-        <module>example-game-collect/fxgl-tank</module>
 
         <!-- springboot 集成示例 -->
         <module>example-springboot/spring-game-logic-school</module>
@@ -58,31 +28,12 @@
         <module>example-springboot/spring-websocket-native-pb-client</module>
         <module>example-springboot/spring-game-logic-parent</module>
 
-        <module>example/example-jsr-jakarta</module>
-        <module>example/example-jsr-javax</module>
-        <module>example/example-codec-json</module>
-        <module>example-multiple/the-weather-game-logic</module>
-        <module>example-multiple/the-common-data</module>
-        <module>example-multiple/the-common-external</module>
-        <module>example-multiple/the-common-broker</module>
-        <module>example-multiple/the-one-application</module>
-        <module>example-multiple/the-client</module>
         <module>component/chat-core</module>
         <module>component/chat-provide</module>
         <module>component/login-core</module>
         <module>component/login-provide</module>
         <module>component/z-client</module>
-        <module>example/example-ws-token</module>
-        <module>example-multiple-eventbus/the-eventbus-one-application</module>
-        <module>example-multiple-eventbus/the-eventbus-common-data</module>
-        <module>example-multiple-eventbus/the-eventbus-external</module>
-        <module>example-multiple-eventbus/the-eventbus-logic-user</module>
-        <module>example-multiple-eventbus/the-eventbus-logic-email</module>
-        <module>example-multiple-eventbus/the-eventbus-broker</module>
-        <module>example-multiple-eventbus/the-eventbus-client</module>
-        <module>example-flowContext</module>
-        <module>example-multiple-eventbus/the-eventbus-analyse-data</module>
-        <module>example/example-external-cache</module>
+
         <module>example-springboot/spring-common-parent</module>
     </modules>
 
